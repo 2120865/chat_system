@@ -24,7 +24,7 @@ docker-compose up -d
 ## 🏃 Getting started
 - Web App
     - http://127.0.0.1:81
-    - admin:
+    - admin:password
     - test:test
 - PhpMyAdmin
     - http://127.0.0.1:82
