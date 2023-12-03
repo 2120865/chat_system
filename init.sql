@@ -71,7 +71,7 @@ CREATE TABLE `user` (
 -- Dumping data for table `user`
 
 INSERT INTO `user` (`userid`, `username`, `password`, `uname`, `photo`, `access`) VALUES
-(1, 'admin', '3dd1e950e484fcdab471a7088b9ec60c', 'Admin', '', 1),
+(1, 'admin', '5f4dcc3b5aa765d61d8327deb882cf99', 'Admin', '', 1),
 (2, 'test', '098f6bcd4621d373cade4e832627b4f6', 'Test', '', 2);
 
 
