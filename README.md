@@ -16,6 +16,7 @@ sudo apt install docker-compose -y
 cd /opt
 sudo git clone https://github.com/2120865/chat_system.git
 cd chat_system
+sudo chmod 777 upload
 docker-compose up -d
 ```
 
