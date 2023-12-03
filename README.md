@@ -4,18 +4,18 @@
 ## 🛠️ Installation
 ```bash
 # installing docker
-sudo apt update -y && \
-sudo apt install git -y && \
-sudo apt install docker.io -y && \
-sudo systemctl start docker && \
-sudo systemctl enable docker && \
-sudo usermod -aG docker $USER && \
+sudo apt update -y
+sudo apt install git -y 
+sudo apt install docker.io -y 
+sudo systemctl start docker 
+sudo systemctl enable docker 
+sudo usermod -aG docker $USER 
 sudo apt install docker-compose -y
 
 # installing project
-cd /opt && \
-sudo git clone … && \
-cd chat_system && \
+cd /opt
+sudo git clone https://github.com/2120865/chat_system.git
+cd chat_system
 docker-compose up -d
 ```
 
